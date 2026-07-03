@@ -1,0 +1,21 @@
+[project]
+name = "hl7-ed-analytics-platform"
+version = "0.1.0"
+description = "Emergency Department Analytics Platform"
+authors = [
+    {name = "mayanktripathi4u",email = "mayanktripathi4u@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "faker (>=40.23.0,<41.0.0)",
+    "pyyaml (>=6.0.3,<7.0.0)",
+    "rich (>=15.0.0,<16.0.0)",
+    "pydantic (>=2.13.4,<3.0.0)",
+    "jinja2 (>=3.1.6,<4.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
