@@ -1,0 +1,9 @@
+MSH|^~\&|EHR_SIM|{{ encounter.facility.id }}|EXPANSE|EXPANSE_DR|{{ timestamp }}||ADT^A01|{{ control_id }}|P|2.5
+EVN|A01|{{ timestamp }}
+PID|1||{{ encounter.patient.mrn }}||{{ encounter.patient.last_name }}^{{ encounter.patient.first_name }}||{{ dob }}|{{ sex }}
+PV1|1|E|{{ encounter.bed.unit }}^{{ encounter.bed.room }}^{{ encounter.bed.bed }}||||{{ encounter.provider.id }}^{{ encounter.provider.last_name }}^{{ encounter.provider.first_name }}||||||||{{ encounter.encounter_id }}
+ZED|
+{{ encounter.arrival_method }}|
+{{ encounter.triage_level }}|
+{{ encounter.status }}|
+{{ encounter.chief_complaint }}

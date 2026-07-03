@@ -1,0 +1,35 @@
+# name: Trauma Alert
+# event: ADT_A01
+# encounter:
+#   encounter_id: ENC10001
+#   chief_complaint: Motor Vehicle Accident
+#   arrival_method: Ambulance
+#   triage_level: 1
+#   status: Waiting
+#   patient:
+#     mrn: MRN10001
+#     first_name: John
+#     last_name: Smith
+#     age: 42
+#     gender: Male
+#   provider:
+#     id: DOC100
+#     first_name: Sarah
+#     last_name: Jones
+#     specialty: Emergency Medicine
+#   facility:
+#     id: FAC01
+#     name: Nashville General
+#   bed:
+#     unit: ED
+#     room: Trauma
+#     bed: T01
+
+name: Trauma Alert
+event: ADT_A01
+
+encounter:
+  chief_complaint: Motor Vehicle Accident
+  arrival_method: Ambulance
+  triage_level: 1
+  status: Waiting
